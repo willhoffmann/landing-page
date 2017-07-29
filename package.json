@@ -1,0 +1,26 @@
+{
+  "name": "frontend-test",
+  "version": "1.0.0",
+  "description": "Test Frontend (Landing page cadastro positivo promoção)",
+  "homepage": "",
+  "author": {
+    "name": "William Hoffmann",
+    "email": "williamhoffmann@outlook.com",
+    "role": "Developer"
+  },
+  "license": "ISC",
+  "engines": {
+    "node": ">=0.10.1"
+  },
+  "devDependencies": {
+    "autoprefixer-stylus": "^0.14.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-stylus": "^1.2.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-express": "^1.4.1",
+    "jit-grunt": "^0.10.0",
+    "time-grunt": "^1.4.0"
+  }
+}

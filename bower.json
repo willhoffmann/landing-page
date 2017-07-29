@@ -1,0 +1,22 @@
+{
+  "name": "frontend-test",
+  "description": "Test Frontend (Landing page cadastro positivo promoção)",
+  "homepage": "",
+  "author": {
+    "name": "William Hoffmann",
+    "email": "williamhoffmann@outlook.com",
+    "role": "Developer"
+  },
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "1.6.4"
+  }
+}
