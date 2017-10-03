@@ -1,5 +1,213 @@
+/*
+ *   Test Frontend
+ *   Author: William Hoffmann <williamhoffmann@outlook.com>
+!*/
 html,
 body {
   height: 100%;
+  margin: 0;
+  padding: 0;
   width: 100%;
+}
+body {
+  color: #5b5b5f;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+}
+a {
+  color: #632678;
+}
+a:hover,
+a:focus {
+  color: #632678;
+}
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.text-purple {
+  color: #632678;
+}
+.text-purple-light {
+  color: #825193;
+}
+.text-yellow-dark {
+  color: #e2a235;
+}
+.w-100 {
+  width: 100%;
+}
+.spr {
+  background: url("../imgs/sprite.png") no-repeat top left;
+  display: inline-block;
+}
+.spr-logo {
+  background-position: 0 -402px;
+  height: 24px;
+  width: 238px;
+}
+.spr-monitor,
+.spr-plus,
+.spr-luck {
+  background-position: 0 0;
+  height: 70px;
+  width: 70px;
+}
+.spr-plus {
+  background-position: 0 -72px;
+}
+.spr-luck {
+  background-position: 0 -142px;
+}
+.spr-calendar {
+  background-position: 0px -325px;
+  height: 42px;
+  width: 54px;
+}
+.btn {
+  border-radius: 2px;
+}
+.btn-purple {
+  background-color: #632678;
+  border-color: #632678;
+  color: #fff !important;
+}
+.btn-purple:hover,
+.btn-purple:focus {
+  background-color: #532065;
+  border-color: #532065;
+  color: #fff !important;
+}
+.btn-primary {
+  color: #fff !important;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  max-width: 300px;
+  padding: 15px;
+}
+.navbar-custom {
+  background-color: #fff;
+  border-color: #fff;
+  padding: 12px 0;
+}
+.navbar-toggle {
+  background: url("../imgs/burguer.png") no-repeat;
+  margin-left: 15px;
+  border-radius: 0;
+  float: left;
+}
+@media (max-width: 768px) {
+  .navbar-toggle {
+    margin-top: 22px;
+  }
+  .navbar-brand {
+    float: right;
+  }
+}
+.navbar-collapse {
+  padding-top: 5px;
+}
+.navbar-nav >li>a:hover,
+.navbar-nav >li>a:focus {
+  background-color: #fcf9ff;
+}
+.navbar-nav .btn.btn-default {
+  background: transparent;
+  border-color: #632678;
+  color: #632678;
+  font-weight: 600;
+  margin: 6px 0 6px 10px;
+  padding: 8px;
+}
+.navbar-nav .btn.btn-default:hover,
+.navbar-nav .btn.btn-default:focus {
+  background-color: #fcf9ff;
+}
+@media (max-width: 768px) {
+  .navbar-nav .btn.btn-default {
+    margin-right: 10px;
+  }
+}
+.hero {
+  background: url("../imgs/banner-1.png") center center no-repeat scroll;
+  background-size: cover;
+  height: 418px;
+  margin-top: 80px;
+  position: relative;
+}
+.hero-content {
+  margin-left: 60px;
+  max-width: 420px;
+  position: relative;
+  text-align: center;
+  top: 50px;
+}
+.hero-content .hero-text-box {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 100;
+  line-height: 1.3em;
+}
+.hero-content .hero-text-box .text-featured {
+  font-size: 32px;
+}
+.hero-content .hero-text-box .price-featured {
+  display: block;
+  font-size: 50px;
+  padding-top: 10px;
+}
+.hero-content .hero-links-box a {
+  color: #ccc;
+}
+.hero-content .hero-links-box a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .hero-content {
+    margin-left: 0;
+    top: 48px;
+  }
+  .hero-content .hero-text-box {
+    font-size: 24px;
+  }
+  .hero-content .hero-text-box .text-featured {
+    font-size: 28px;
+  }
+}
+.main {
+  margin-top: 30px;
+}
+.box-1 .title {
+  font-size: 22px;
+  text-align: center;
+}
+.box-1 .items {
+  margin-top: 30px;
+}
+.box-1 .items .group-image {
+  display: block;
+  margin: 30px auto 10px;
+}
+.box-1 .items .group-text {
+  font-size: 120%;
+}
+.box-1 .link {
+  margin-top: 40px;
+}
+.footer {
+  background: #632678;
+  color: #fff;
+  font-size: 75%;
+  margin: 50px 0;
+}
+.footer-content {
+  padding: 20px 0 10px 0;
+}
+.footer-content:last-child {
+  background-color: #825193;
+}
+.footer-content .link-footer {
+  color: #fff !important;
+  text-decoration: underline;
 }

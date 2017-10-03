@@ -1,0 +1,55 @@
+/*
+* Header
+*
+*/
+
+
+.hero
+  background url('../imgs/banner-1.png') center center no-repeat scroll
+  -webkit-background-size cover
+  -moz-background-size cover
+  -o-background-size cover
+  background-size cover
+  height 418px
+  margin-top 80px
+  position relative
+
+  &-content
+    margin-left 60px
+    max-width 420px
+    position relative
+    text-align center
+    top 50px
+
+    .hero-text-box
+      color #fff
+      font-size 32px
+      font-weight 100
+      line-height 1.3em
+
+      .text-featured
+        font-size 32px
+
+      .price-featured
+        display block
+        font-size 50px
+        padding-top 10px
+
+    .hero-links-box
+      a
+        color #ccc
+
+        &:hover
+          color #fff
+          text-decoration none
+
+  @media (max-width 768px)
+    &-content
+      margin-left 0
+      top 48px
+
+      .hero-text-box
+        font-size 24px
+
+        .text-featured
+          font-size 28px

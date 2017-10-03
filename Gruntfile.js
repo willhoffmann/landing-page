@@ -109,7 +109,7 @@ module.exports = function (grunt) {
 
             stylus: {
                 files: [
-                    '<%= css_src %>/*.styl'
+                    '<%= css_src %>/**/*.styl'
                 ],
                 tasks: ['styl']
             }
